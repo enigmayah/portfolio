@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Portfolio</title>
+    <meta name="description" content="Android (Kotlin) developer building reliable mobile apps with Firebase. Portfolio featuring e-commerce startup work and IoT projects." />
+    <meta name="theme-color" content="#0f172a" />
+
+    <!-- Open Graph / Twitter -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Portfolio | Android & Firebase Developer" />
+    <meta property="og:description" content="Android (Kotlin) developer building reliable mobile apps with Firebase. Portfolio featuring e-commerce startup work and IoT projects." />
+    <meta property="og:image" content="assets/og-card.svg" />
+    <meta property="og:url" content="https://enigmayah.github.io/" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#content">Skip to content</a>
+    <header class="site-header">
+      <nav class="nav" aria-label="Primary">
+        <a class="logo" href="#">Chaitanya</a>
+        <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu">
+          <span class="sr-only">Toggle navigation</span>
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        </button>
+        <ul id="nav-menu" class="nav-menu">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#certifications">Certifications</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme"><span class="sr-only">Toggle theme</span>🌓</button></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="content">
+      <section class="hero" id="hero">
+        <div class="container">
+          <div class="hero-grid">
+            <div class="hero-copy">
+              <p class="eyebrow">Android • Kotlin • Firebase • Cybersecurity </p>
+              <h1>Building dependable mobile experiences and thoughtful connected security solutions</h1>
+              <p class="lead">I'm a Cybersecurity Enthusiast and Developer focused on Android apps with Kotlin and Firebase. Currently contributing to an e‑commerce startup, and I've built IoT prototypes like a smart energy monitoring system.</p>
+              <div class="hero-cta">
+                <a class="btn primary" href="#projects">View Projects</a>
+                <a class="btn ghost" href="#contact">Get in touch</a>
+              </div>
+            </div>
+            <div class="hero-art" aria-hidden="true">
+              <div class="blob"></div>
+              <div class="rings"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="about">
+        <div class="container">
+          <h2>About</h2>
+          <p>
+          I’m a Cybersecurity Enthusiast and Android Developer studying at the National Forensic Sciences University. I’m passionate about building secure systems and exploring how mobile apps, IoT devices, and cloud platforms can be hardened against threats.
+Alongside my degree, I’ve gained experience in Android (Kotlin, Firebase), IoT prototyping, and completed a Cybersecurity virtual internship where I practiced penetration testing basics and explored basic tools like nmap, wireshark, etc. I am currently working on a quick ecommerce startup project android.
+          </p>
+          <h3 class="muted">Fields of Interest</h3>
+          <ul class="tags">
+            <li>Cybersecurity</li>
+            <li>Red Teaming</li>
+            <li>Pentesting</li>
+          </ul>
+          <h3 class="muted">Learning & Goals</h3>
+          <p>
+            I am actively learning cybersecurity fundamentals and tooling (e.g., Nmap, Wireshark, Burp Suite) alongside my Android work. My medium‑term goal is to pursue certifications like OSCP and eCPPT; preparation is planned after key milestones at the e‑commerce startup.
+          </p>
+        </div>
+      </section>
+
+      <section class="section" id="experience">
+        <div class="container">
+          <h2>Experience</h2>
+          <div class="timeline">
+            <article class="card">
+              <header class="card-header">
+                <div>
+                  <h3>E‑commerce Startup</h3>
+                  <p class="muted">Android Developer · Kotlin, Firebase · Present</p>
+                </div>
+              </header>
+              <ul class="card-list">
+                <li>Implemented features for product browsing, cart, and checkout with Kotlin coroutines and Jetpack components.</li>
+                <li>Integrated Firebase Authentication, Firestore, and Analytics for user flow tracking and personalization.</li>
+                <li>Improved app reliability and currently working on security.</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="projects">
+        <div class="container">
+          <h2>Projects</h2>
+          <div class="grid projects-grid">
+            <article class="card project">
+              <div class="card-body">
+                <h3>SmartIoT Energy Monitoring System with I2C LCD and Blynk Integration</h3>
+                <p class="muted">IoT · ESP32 · Blynk IoT</p>
+                <p>IoT-enabled smart energy meter that measures voltage (Vrms), current (Irms), apparent power, and energy consumption (kWh) in real-time and displays it both on an I2C LCD and remotely through the Blynk IoT platform.</p>
+                <ul class="tags">
+                  <li>ESP32</li>
+                  <li>Arduino</li>
+                  <li>Blynk IoT</li>
+                  <li>Android</li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="card project">
+              <div class="card-body">
+                <h3>ECommerce App Startup</h3>
+                <p class="muted">Android · Kotlin · Jetpack Compose . Firebase</p>
+                <p>Currently working on Quick ECommerce App Startup, with particular focus on Backend (Firebase, Firestore, Firebase Auth).</p>
+                <ul class="tags">
+                  <li>Kotlin</li>
+                  <li>Jetpack Compose</li>
+                  <li>Coroutines</li>
+                  <li>Firestore</li>
+                </ul>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="skills">
+        <div class="container">
+          <h2>Skills</h2>
+          <div class="skills">
+            <ul>
+              <li>Android (Kotlin, Jetpack, Coroutines)</li>
+              <li>Firebase (Auth, Firestore, Firebase Cloud Functions)</li>
+              <li>REST APIs, JSON, Hilt</li>
+              <li>Git, Github</li>
+              <li>IoT basics (ESP32, Sensors, ESP8266, Arduino)</li>
+              <li>Cybersecurity</li>
+              <li>Languages (C, C++, Java, Kotlin)</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="certifications">
+        <div class="container">
+          <h2>Certifications and Internships</h2>
+          <div class="grid">
+            <article class="card">
+              <div class="card-body">
+                <h3>CDAC Noida Cybersecurity Virtual Internship</h3>
+                <p class="muted">Remote · Self‑paced</p>
+                <ul class="card-list">
+                  <li>Ethical Hacking and Penetration Testing.</li>
+                  <li>Hands‑on with popular tools like Nmap, Google Dorking, Wireshark etc,.</li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="card">
+              <div class="card-body">
+                <h3>Infosys Springboard Artificial Intelligence Primer Certification</h3>
+                <p class="muted">Remote · Self‑paced</p>
+                <ul class="card-list">
+                  <li>Natural Language Processing (NLP) Fundamentals.</li>
+                  <li>Computer Vision and Deep Learning.</li>
+                  <li>Robotic Process Automation and Data Science Fundamentals.</li>
+                </ul>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="contact">
+        <div class="container">
+          <h2>Contact</h2>
+          <p>Open to internships, hackathons, ctfs and bug bounties.</p>
+          <div class="contact">
+            <a class="btn primary" href="mailto:chaithusub@gmail.com">Email Me</a>
+            <div class="socials">
+              <a href="https://github.com/enigmayah" target="_blank" rel="noreferrer noopener" aria-label="GitHub">GitHub</a>
+              <a href="https://www.linkedin.com/in/chaitanya-subhash-reddy-33172528b" target="_blank" rel="noreferrer noopener" aria-label="LinkedIn">LinkedIn</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+       
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+  </html>
+
+
